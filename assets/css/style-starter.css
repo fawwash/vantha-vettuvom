@@ -8078,7 +8078,7 @@ button.bg-dark:focus {
 .mt-3,
 .my-3 {
     margin-top: 1rem !important;
-    margin-left: 18px;
+
 }
 
 .mr-3,
@@ -13450,13 +13450,18 @@ a.link-style1 {
 
 @media(max-width:415px) {
     p {
-        font-size: 17px
+        font-size: 17px;
+        margin: auto;
     }
     .btn-white,
     .btn-style {
         padding: 8px 32px;
         font-size: 16px;
         margin-left: 17px;
+  }
+  .mt-9{
+      margin-top: 2rem !important;
+      margin-left: -91px;
   }
     }
     .title-w3l,
@@ -14474,6 +14479,7 @@ nav ul li a:hover {
     border-radius: var(--border-radius);
     transition: .3s ease-in-out;
     margin-left: 18px;
+    margin-top: 18px;
 }
 
 .box-wrap:hover .icon {
@@ -15068,7 +15074,12 @@ p.counter {
 }
 
 p.para-counter {
-    color: #fff
+    color: #fff;
+    margin: auto;
+}
+
+.stats-heading{
+    margin: auto;
 }
 
 span.plus {
@@ -15132,11 +15143,10 @@ span.plus {
 }
 
 .w3l-clients blockquote q {
-    font-size: 23px;
+    font-size: 22px;
     line-height: 36px;
     color: var(--heading-color);
     font-weight: 600;
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     display: block
@@ -15256,8 +15266,15 @@ div#owl-demo2 .owl-dots {
 
 @media(max-width:1080px) {
     .w3l-clients blockquote q {
-        font-size: 22px
-    }
+        font-size: 22px;
+        line-height: 36px;
+        color: var(--heading-color);
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+      }
+      
     .w3l-clients.w3l-test blockquote q::before {
         font-size: 40px
     }
@@ -15293,7 +15310,7 @@ div#owl-demo2 .owl-dots {
     min-height: 300px;
     background: url(../images/logo1.png) no-repeat top;
     -ms-background-size: cover;
-    background-size: cover;
+    background-size: contain;;
     z-index: 0;
     position: relative
 }
