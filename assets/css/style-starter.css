@@ -16937,6 +16937,10 @@ section#contact {
 }
 
 @media (max-width:991.98px) {
+    .breadcrumbs-custom-path {
+        padding: 47px 0;
+        margin-top: -28px;
+      }
     .timeline::after {
         left: 24px;
         bottom: 180px
