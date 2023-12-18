@@ -5038,9 +5038,10 @@ input[type="button"].btn-block {
 
 .pagination {
     display: flex;
-    padding-left: 0;
+    padding-right: 58px;
     list-style: none;
-    border-radius: .25rem
+    border-radius: .25rem;
+    justify-content: flex-end;
 }
 
 .page-link {
